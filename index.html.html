@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input{
+            border: 2px solid black;
+            position: absolute;
+            left: 40%;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var value=prompt('enter your alphabet');
+
+        if(value=='A' | value=='a'){
+
+            document.write(`<div class='input'>for(row=0;row<5;row++){  <br>    
+            for(col=0;col<5;col++){<br>
+                if(row==0 | col==0 | (row==1 & col==4) | (row==2 & col<5) | (row==3 & col==4) | (row==4 & col==4)){<br>
+                    document.write('*');<br>
+                }<br>
+                else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+            }   <br>
+            document.write('<br>');<br>
+            }<br></div>`)
+            for(row=0;row<5;row++){      
+            for(col=0;col<5;col++){
+                if(row==0 | col==0 | (row==1 & col==4) | (row==2 & col<5) | (row==3 & col==4) | (row==4 & col==4)){
+                    document.write('*');
+                }
+                else{
+                    document.write('&nbsp;&nbsp;')
+                }
+            }  
+            document.write('<br>');
+            
+            }
+        }
+
+
+        else if(value=='B' | value=='b'){
+
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+            for(col=0;col<5;col++){<br>
+            if(row==0 | col==0 | (row==1 & col==4) | (row==2 & col<5) | (row==3 & col==4) | (row==4 & col<5)){<br>
+                document.write('*');<br>
+            }<br>
+            else{<br>
+                document.write('&nbsp;&nbsp;')<br>
+            }<br>
+            }<br>
+            document.write('<br>');<br>
+        }<br></div>`)
+        for(row=0;row<5;row++){
+        for(col=0;col<5;col++){
+            if(row==0 | col==0 | (row==1 & col==4) | (row==2 & col<5) | (row==3 & col==4) | (row==4 & col<5)){
+                document.write('*');
+            }
+            else{
+                document.write('&nbsp;&nbsp;')
+            }
+            }
+                document.write('<br>');
+            }
+        }
+
+
+        else if(value=='C' | value=='c'){
+            document.write(`<div class='input'>for(row=0;row<4;row++){<br>
+            for(col=0;col<5;col++){<br>
+                if(row==0 | col==0 |(row==3 & col<5)){<br>
+                    document.write('*');<br>
+                }<br>
+                else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+            }<br>
+                document.write('<br>');<br>
+        }<br></div>`)
+        for(row=0;row<4;row++){
+        for(col=0;col<5;col++){
+            if(row==0 | col==0 |(row==3 & col<5)){
+                document.write('*');
+            }
+            else{
+                document.write('&nbsp;&nbsp;')
+            }
+        }
+            document.write('<br>');
+        }
+        }
+
+    
+        else if(value=='D' | value=='d'){
+            document.write(`<div class='input'>for(row=0;row<4;row++){<br>
+        for(col=0;col<5;col++){<br>
+            if(row==0 | col==0 |(row==1 & col==4) | (row==2 &col==4) | (row==3 & col<5)){<br>
+                document.write('*');    <br>
+            }<br>
+            else{<br>
+                document.write('&nbsp;&nbsp;')<br>
+            }<br>
+        }<br>
+            document.write('<br>');<br>
+        }<br></div>`)
+        for(row=0;row<4;row++){
+            for(col=0;col<5;col++){
+                if(row==0 | col==0 |(row==1 & col==4) | (row==2 &col==4) | (row==3 & col<5)){
+                    document.write('*');    
+                }
+                else{
+                    document.write('&nbsp;&nbsp;')
+                }
+            }
+             document.write('<br>');
+        }
+        }
+
+        
+        else if(value=='E' | value=='e'){
+            document.write(`<div class='input'> for(row=0;row<5;row++){<br>
+            for(col=0;col<5;col++){<br>
+                if(row==0 | col==0 | (row==2 & col<5) | (row==4 & col<5)){<br>
+                    document.write('*');<br>
+                }<br>
+                else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+            }<br>
+                document.write('<br>');<br>
+            }<br></div>`)
+            for(row=0;row<5;row++){
+                for(col=0;col<5;col++){
+                    if(row==0 | col==0 | (row==2 & col<5) | (row==4 & col<5)){
+                        document.write('*');
+                    }
+                    else{
+                        document.write('&nbsp;&nbsp;')
+                    }
+                }
+                document.write('<br>');
+            }
+        } 
+
+        
+        else if(value=='F' | value=='f'){
+            document.write(`<div class='input'> for(row=0;row<5;row++){<br>
+                    for(col=0;col<5;col++){<br>
+                        if(row==0 | col==0 | (row==2 & col<5)){<br>
+                            document.write('*');<br>
+                        }<br>
+                        else{<br>
+                        document.write('&nbsp;&nbsp;')<br>
+                        }<br>
+                    }<br>
+                        document.write('<br>');<br>
+                }<br></div>`)
+                    for(row=0;row<5;row++){
+                        for(col=0;col<5;col++){
+                            if(row==0 | col==0 | (row==2 & col<5)){
+                                document.write('*');
+                            }
+                            else{
+                            document.write('&nbsp;&nbsp;')
+                        }
+                        }
+                        document.write('<br>');
+                        }
+        } 
+
+        
+         else if(value=='G' | value=='g'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+                        for(col=0;col<5;col++){<br>
+                            if(row==0 | col==0 | (row==2 & col>1) | (row==4 & col<=2) | (col==2 & row>1) | (col==4 & row>=2)){<br>
+                                document.write('*');<br>
+                            }<br>
+                        else{<br>
+                            document.write('&nbsp;&nbsp;')<br>
+                        }<br>
+                        }<br>
+                        document.write('<br>');<br>
+            }</div>`)
+            for(row=0;row<5;row++){
+                for(col=0;col<5;col++){
+                    if(row==0 | col==0 | (row==2 & col>1) | (row==4 & col<=2) | (col==2 & row>1) | (col==4 & row>=2)){
+                        document.write('*');
+                    }
+                    else{
+                    document.write('&nbsp;&nbsp;')
+                }
+                }
+                document.write('<br>');
+            }
+        }
+
+        
+        else if(value=='H' | value=='h'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+                for(col=0;col<5;col++){<br>
+                    if(col==0 | (row==2 & col<5) | (col==4)){<br>
+                    // if((row==0 & col==4) |(row==1 & col==4) | (row==2 &col==4) | (row==3 & col==)){<br>
+                        document.write('*');    <br>    
+                    }<br>
+                    else{<br>
+                        document.write('&nbsp;&nbsp;')<br>
+                    }<br>
+                }<br>
+                    document.write('<br>');<br>
+            }</div>`)
+            for(row=0;row<5;row++){
+                for(col=0;col<5;col++){
+                    if(col==0 | (row==2 & col<5) | (col==4)){
+                        document.write('*');    
+                    }
+                    else{
+                    document.write('&nbsp;&nbsp;')
+                }
+                }
+                document.write('<br>');
+            }
+        }
+         
+
+         else if(value=='I' | value=='i'){
+            document.write(`<div class='input'> for(row=0;row<5;row++){<br>
+                    for(col=0;col<5;col++){<br>
+                        if(row==0 |(col==2 & row<4) | (row==4)){<br>
+                            document.write('*');<br>
+                        }<br>
+                        else{<br>
+                        document.write('&nbsp;&nbsp;')<br>
+                        }<br>
+                    }<br>
+                        document.write('<br>');<br>
+            }</div>`)
+            for(row=0;row<5;row++){
+            for(col=0;col<5;col++){
+                if(row==0 |(col==2 & row<4) | (row==4)){
+                    document.write('*');
+                }
+                else{
+                document.write('&nbsp;&nbsp;')
+            }
+            }
+            document.write('<br>');
+            }
+        }
+
+        
+         else if(value=='J' | value=='j'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+                for(col=0;col<5;col++){<br>
+                    if(row==0 |(col==2 & row<4) | (row==4 & col<3)){<br>
+                        document.write('*');<br><br>
+                    }<br>
+                    else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+                }<br>
+                document.write('<br>');<br>
+                }</div>`)
+                for(row=0;row<5;row++){
+                    for(col=0;col<5;col++){
+                        if(row==0 |(col==2 & row<4) | (row==4 & col<3)){
+                            document.write('*');
+                        }
+                        else{
+                             document.write('&nbsp;&nbsp;')
+                        }
+                    }
+                    document.write('<br>');
+                }
+        }
+
+        
+        else if(value=='K' | value=='k'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+                for(col=0;col<5;col++){<br>
+                    if( col==0 | (row==2 & col<2) | (row==1 & col==2) | (row==0 & col==3) | (row==3 & col==2) | (row==4 & col==3)){<br>
+                        document.write('*');<br>
+                    }<br>
+                    else{<br>
+                        document.write('&nbsp;&nbsp;')<br>
+                    }<br>
+                }<br>
+                    document.write('<br>');<br>
+            }</div>`)
+            for(row=0;row<5;row++){
+                for(col=0;col<5;col++){
+                    if( col==0 | (row==2 & col<2) | (row==1 & col==2) | (row==0 & col==3) | (row==3 & col==2) | (row==4 & col==3)){
+                        document.write('*');
+                    }
+                    else{
+                        document.write('&nbsp;&nbsp;')
+                    }
+                }
+                    document.write('<br>');
+            }
+        }
+
+        
+         else if(value=='L' | value=='l'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+                for(col=0;col<5;col++){<br>
+                    if( col==0 | (row==2 & col<0) | (row==4 & col<5)){<br>
+                        document.write('*');<br>
+                    }<br>
+                    else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+                }<br>
+                document.write('<br>');<br>
+                }</div>`)
+                for(row=0;row<5;row++){
+                for(col=0;col<5;col++){
+                    if( col==0 | (row==2 & col<0) | (row==4 & col<5)){
+                        document.write('*');
+                    }
+                    else{
+                    document.write('&nbsp;&nbsp;')
+                }
+                }
+                document.write('<br>');
+                }
+            }
+
+        
+        else if(value=='M' | value=='m'){
+            document.write(`<div class='input'> for(row=0;row<5;row++){ <br>
+                for(col=0;col<5;col++){<br>
+                    if(col==0 | (row==1 & col<2) | (row==2 & col==2) |(row==1 & col==3)| (col==4)){<br>
+                        document.write('*');    <br>
+                    }<br>
+                    else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+                }<br>
+                }</div>`)
+                for(row=0;row<5;row++){ 
+                for(col=0;col<5;col++){
+                    if(col==0 | (row==1 & col<2) | (row==2 & col==2) |(row==1 & col==3)| (col==4)){
+                        document.write('*');    
+                    }
+                    else{
+                    document.write('&nbsp;&nbsp;')
+                }
+                }
+                document.write('<br>');
+                }
+        }
+
+        
+        else if(value=='N' | value=='n'){
+            document.write(`<div class='input'> for(row=0;row<5;row++){ <br>
+                    for(col=0;col<5;col++){<br>
+                        if(col==0 |(row-col==0 & row<5)| (col==4)){<br>
+                            document.write('*');  <br>  
+                        }<br>
+                        else{<br>
+                        document.write('&nbsp;&nbsp;')<br>
+                    }<br>
+                    }<br>
+                    document.write('<br>');<br>
+                    }</div>`)
+                    for(row=0;row<5;row++){ 
+                    for(col=0;col<5;col++){
+                        if(col==0 |(row-col==0 & row<5)| (col==4)){
+                            document.write('*');  
+                        }
+                        else{
+                        document.write('&nbsp;&nbsp;')
+                    }
+                    }
+                    document.write('<br>');
+                    }
+        }    
+
+        
+        else if(value=='O' | value=='o'){
+            document.write(`<div class='input'>for(row=0;row<4;row++){<br>
+                for(col=0;col<5;col++){<br>
+                    if(row==0 | col==0 |(row==1 & col==4) | (row==2 &col==4) | (row==3 & col<5)){<br>
+                        document.write('*');    <br>
+                    }<br>
+                    else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+                }<br>
+                document.write('<br>');<br>
+                }</div>`)
+                for(row=0;row<4;row++){
+                    for(col=0;col<5;col++){
+                        if(row==0 | col==0 |(row==1 & col==4) | (row==2 &col==4) | (row==3 & col<5)){
+                            document.write('*');   
+                        }
+                        else{
+                            document.write('&nbsp;&nbsp;')
+                        }
+                    }
+                    document.write('<br>');
+                }
+        }  
+        
+        
+        else if(value=='P' | value=='p'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){   <br>
+            for(col=0;col<5;col++){<br>
+                if(row==0 | col==0 | (row==1 & col==4) | (row==2 & col<5) | (row==3 & col==0) | (row==4 & col==0)){<br>
+                    document.write('*');<br>
+                }<br>
+                else{<br>
+                document.write('&nbsp;&nbsp;')<br>
+            }<br>
+            }<br>
+            document.write('<br>');<br>
+            }</div>`)
+            for(row=0;row<5;row++){      
+            for(col=0;col<5;col++){
+                if(row==0 | col==0 | (row==1 & col==4) | (row==2 & col<5) | (row==3 & col==0) | (row==4 & col==0)){
+                    document.write('*');
+                }
+                else{
+                document.write('&nbsp;&nbsp;')
+            }
+            }
+            document.write('<br>');
+            }
+        }
+
+         
+         else if(value=='Q' | value=='q'){
+            document.write(`<div class='input'>for(row=0;row<=6;row++){<br>
+                for(col=0;col<=6;col++){<br>
+                    if((row==0 &+<br>
+                    col<=5 )| (col==0 & row<=5) | (col==5 & row<=5) | (row==5 & col<=5) | (row==col)){<br>
+                        document.write('*');    <br>
+                    }<br>
+                    else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+                }<br>
+                document.write('<br>');<br>
+                }</div>`)
+                for(row=0;row<=6;row++){
+                for(col=0;col<=6;col++){
+                    if((row==0 &+col<=5 )| (col==0 & row<=5) | (col==5 & row<=5) | (row==5 & col<=5) | (row==col)){
+                        document.write('*');   
+                    }
+                    else{
+                    document.write('&nbsp;&nbsp;')
+                }
+                }
+                document.write('<br>');
+                }
+         }
+
+        
+        else if(value=='R' | value=='r'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){     <br>  
+                for(col=0;col<5;col++){<br>
+                    if(row==0 | col==0 | (row==1 & col==4) | (row==2 & col<5) | (row==3 & col==2) | (row==4 & col==3)){<br>
+                        document.write('*');<br>
+                    }<br>
+                    else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+                }<br>
+                document.write('<br>');<br>
+                }</div>`)
+                 for(row=0;row<5;row++){       
+                    for(col=0;col<5;col++){
+                        if(row==0 | col==0 | (row==1 & col==4) | (row==2 & col<5) | (row==3 & col==2) | (row==4 & col==3)){
+                            document.write('*');
+                        }
+                        else{
+                        document.write('&nbsp;&nbsp;')
+                    }
+                    }
+                    document.write('<br>');
+                }
+        }
+
+        
+        else if(value=='S' | value=='s'){
+            document.write(`<div class='input'> for(row=0;row<5;row++){     <br>  
+                    for(col=0;col<5;col++){<br>
+                        if((row<=2 & col==0) | (row==0) | (row==2 & col<5) | (row==3 & col==4) | (row==4 & col<5)){<br>
+                            document.write('*');<br>
+                        }<br>
+                        else{<br>
+                        document.write('&nbsp;&nbsp;')<br>
+                    }<br>
+                    }<br>
+                    document.write('<br>');<br>
+                    }</div>`)
+                    for(row=0;row<5;row++){       
+                    for(col=0;col<5;col++){
+                        if((row<=2 & col==0) | (row==0) | (row==2 & col<5) | (row==3 & col==4) | (row==4 & col<5)){
+                            document.write('*');
+                        }
+                        else{
+                        document.write('&nbsp;&nbsp;')
+                    }
+                    }
+                    document.write('<br>');
+                    }
+        }
+
+        
+        else if(value=='T' | value=='t'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>   
+                for(col=0;col<5;col++){<br>
+                    if(row==0 |(col==2 & row<4)){<br>
+                        document.write('*');<br>
+                    }<br>
+                    else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+                }<br>
+                document.write('<br>');<br>
+                }</div>`)
+                for(row=0;row<5;row++){
+                for(col=0;col<5;col++){
+                    if(row==0 |(col==2 & row<4)){
+                        document.write('*');
+                    }
+                    else{
+                    document.write('&nbsp;&nbsp;')
+                }
+                }
+                document.write('<br>');
+                }
+        }
+
+        
+        else if(value=='U' | value=='u'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+                        for(col=0;col<5;col++){<br>
+                            if(col==0 | (row==4 & col<5) | (col==4)){<br>
+                                document.write('*');    <br>
+                            }<br>
+                            else{<br>
+                            document.write('&nbsp;&nbsp;')<br>
+                        }<br>
+                        }<br>
+                        document.write('<br>');<br>
+                        }</div>`)
+                        for(row=0;row<5;row++){
+                        for(col=0;col<5;col++){
+                            if(col==0 | (row==4 & col<5) | (col==4)){
+                                document.write('*');   
+                            }
+                            else{
+                            document.write('&nbsp;&nbsp;')
+                        }
+                        }
+                        document.write('<br>');
+                    }
+        }
+
+
+        else if(value=='V' | value=='v'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+                for(col=0;col<9;col++){<br>
+                    if((row-col==0 & row<5) | (row+col==8 & row<4)){<br>
+                        document.write('*');<br>
+                    }<br>
+                    else{<br>
+                    document.write('&nbsp;&nbsp;')<br>
+                }<br>
+                }<br>
+                document.write('<br>');<br>
+                }</div>`)
+                for(row=0;row<5;row++){
+                for(col=0;col<9;col++){
+                    if((row-col==0 & row<5) | (row+col==8 & row<4)){
+                        document.write('*');
+                    }
+                    else{
+                    document.write('&nbsp;&nbsp;')
+                }
+                }
+                document.write('<br>');
+                }
+        }
+
+
+        else if(value=='W' | value=='w'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){ <br>
+                    for(col=0;col<5;col++){<br>
+                        if(col==0 | col==4 | (row-col==0 & row>1) | (row==3 & col==1)){<br>
+                            document.write('*');    <br>
+                        }<br>
+                        else{<br>
+                        document.write('&nbsp;&nbsp;')<br>
+                    }<br>
+                    }<br>
+                    document.write('<br>');<br>
+                    }</div>`)
+                    for(row=0;row<5;row++){ 
+                    for(col=0;col<5;col++){
+                        if(col==0 | col==4 | (row-col==0 & row>1) | (row==3 & col==1)){
+                            document.write('*');    
+                        }
+                        else{
+                        document.write('&nbsp;&nbsp;')
+                    }
+                    }
+                    document.write('<br>');
+                    }
+        }
+
+        else if(value=='X' | value=='x'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+                    for(col=0;col<9;col++){<br>
+                        if((row-col==0 & row<5) | (row+col==4)){<br>
+                            document.write('*');<br>
+                        }<br>
+                        else{<br>
+                        document.write('&nbsp;&nbsp;')<br>
+                    }<br>
+                    }<br>
+                    document.write('<br>');<br>
+                    }</div>`)
+                    for(row=0;row<5;row++){
+                    for(col=0;col<9;col++){
+                        if((row-col==0 & row<5) | (row+col==4)){
+                            document.write('*');
+                        }
+                        else{
+                        document.write('&nbsp;&nbsp;')
+                    }
+                    }
+                    document.write('<br>');
+                    }
+        }
+
+        
+        else if(value=='Y' | value=='y'){
+            document.write(`<div class='input'> for(row=0;row<5;row++){<br>
+                        for(col=0;col<5;col++){<br>
+                            if((row-col==0 & row<2) | (row+col==4 & row<2) | (col==2 & row>1)){<br>
+                                document.write('*');<br>
+                            }<br>
+                            else{<br>
+                            document.write('&nbsp;&nbsp;')<br>
+                        }<br>
+                        }<br>
+                        document.write('<br>');<br>
+                        }</div>`)
+                        for(row=0;row<5;row++){
+                        for(col=0;col<5;col++){
+                            if((row-col==0 & row<2) | (row+col==4 & row<2) | (col==2 & row>1)){
+                                document.write('*');
+                            }
+                            else{
+                            document.write('&nbsp;&nbsp;')
+                        }
+                        }
+                        document.write('<br>');
+                        }
+        }
+
+        
+        else if(value=='Z' | value=='z'){
+            document.write(`<div class='input'>for(row=0;row<5;row++){<br>
+                        for(col=0;col<5;col++){<br>
+                            if((row+col==4) | row==0 | row==4){<br>
+                                document.write('*');<br>
+                            }<br>
+                            else{<br>
+                            document.write('&nbsp;&nbsp;')<br>
+                        }<br>
+                        }<br>
+                        document.write('<br>');<br>
+                        }</div>`)
+                        for(row=0;row<5;row++){
+                        for(col=0;col<5;col++){
+                            if((row+col==4) | row==0 | row==4){
+                                document.write('*');
+                            }
+                            else{
+                            document.write('&nbsp;&nbsp;')
+                        }
+                        }
+                        document.write('<br>');
+                        }
+        }
+        else{
+            document.write('invalid alphabet')
+        }
+       </script>
+</body>
+</html>
